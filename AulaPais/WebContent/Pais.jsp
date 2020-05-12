@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Visualizar Cliente</title>
+    <title>Visualizar Pais</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -18,7 +18,7 @@
 		<c:import url="Menu.jsp"/>
         <!-- Container Principal -->
         <div id="main" class="container">
-            <h3 class="page-header">Visualizar Cliente #${pais.id}</h3>
+            <h3 class="page-header">Visualizar Pais #${pais.id}</h3>
             <div class="row">
                 <div class="col-md-12">
                     <p><strong>Nome</strong>
