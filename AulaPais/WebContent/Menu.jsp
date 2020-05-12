@@ -13,7 +13,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.jsp">Clientes</a>
+                    <li><a href="index.jsp">Paises</a>
                     </li>
                 </ul>
             </div>
