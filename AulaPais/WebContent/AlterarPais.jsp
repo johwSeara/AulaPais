@@ -44,7 +44,7 @@
                         <hr />
                         <div id="actions" class="row">
                             <div class="col-md-12">
-                                <button type="submit" class="btn btn-primary" name="acao" value="Alterar">Salvar</button>
+                                <button type="submit" class="btn btn-primary" name="command" value="Alterar">Salvar</button>
                                 <a href="ListarClientes.jsp" class="btn btn-default">Cancelar</a>
                             </div>
                         </div>

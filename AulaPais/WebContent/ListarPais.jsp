@@ -30,7 +30,7 @@
                         <div class="modal-footer">
                             <form action="ManterCliente.do" method="post">
                                 <input type="hidden" name="id" id="id_excluir" />
-                                <button type="submit" class="btn btn-primary" name="acao" value="Excluir">Sim</button>
+                                <button type="submit" class="btn btn-primary" name="command" value="Excluir">Sim</button>
                                 <button type="button" class="btn btn-default" data-dismiss="modal">N&atilde;o</button>
                             </form>
                         </div>
@@ -52,7 +52,7 @@
                             <div class="input-group h2">
                                 <input name="data[search]" class="form-control" id="search" type="text" placeholder="Pesquisar Pais (deixe vazio para trazer todos)">
                                 <span class="input-group-btn">
-                <button class="btn btn-primary" type="submit" name="acao" value="buscar">
+                <button class="btn btn-primary" type="submit" name="command" value="buscar">
                     <span class="glyphicon glyphicon-search"></span>
                                 </button>
                                 </span>
@@ -96,8 +96,8 @@
                                                 ${pais.area }
                                             </td>
                                             <td class="actions">
-                                                <a class="btn btn-success btn-xs" href="ManterPais.do?acao=Visualizar&id=${pais.id }">Visualizar</a>
-                                                <a class="btn btn-warning btn-xs" href="ManterPais.do?acao=Editar&id=${pais.id }">Editar</a>
+                                                <a class="btn btn-success btn-xs" href="ManterPais.do?command=Visualizar&id=${pais.id }">Visualizar</a>
+                                                <a class="btn btn-warning btn-xs" href="ManterPais.do?command=Editar&id=${pais.id }">Editar</a>
                                                 <button id="btn${pais.id }%>" type="button" class="btn btn-danger btn-xs" data-toggle="modal" data-target="#delete-modal" data-cliente="${pais.id }">Excluir</button>
                                             </td>
                                         </tr>
